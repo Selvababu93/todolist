@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'ToDoList',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      // theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
       home: const SplashScreen(),
     );
   }
